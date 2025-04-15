@@ -1,0 +1,115 @@
+* {
+    margin : 0;
+    padding: 0;
+    font-family: monospace;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem;
+}
+
+.container {
+    width: 80vw;
+    margin: auto;
+    height: 80vh;
+    background-color: rgb(153, 211, 153);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.container-left {
+    background-color: rebeccapurple;
+    height: 100%;
+    width: 40%;
+    border-radius: 2rem;
+    margin-right: 2rem !important;
+
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    margin-right: 2rem !important;
+    justify-content: center;
+    background-color: rgb(165, 146, 225);
+}
+
+.settings p {
+    font-size: 3rem;
+    height: 5rem;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 8rem;
+    font-weight: 700;;
+}
+
+.settings input {
+    width: 80%;
+    margin: 0 auto;
+    height: 3rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.settings .color {
+    margin-top: 2rem;
+    width: 8rem;
+    height: 8rem;
+}
+
+.settings .submit {
+    height: 4rem;
+    width: 12rem;
+    margin: 0 auto;
+    border-radius: 2rem;
+    font-size: 2rem;
+    background-color: lightcoral;
+}
+
+.container-right {
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.container-right .sketch-pad {
+    height: 95%;
+    margin-top: 1.4rem !important;
+    width: 95%;
+    background-color: aquamarine;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5,1fr);
+    user-select: none;
+    border-radius: 2rem !important;
+
+}
+
+.grid {
+    border: none;
+    background-color: white;
+
+}
+
+.grid:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+
